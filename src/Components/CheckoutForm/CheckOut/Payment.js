@@ -169,10 +169,10 @@ const useStyles = makeStyles((theme) => ({
       border: "none",
       borderRadius: "0px",
       WebkitBoxShadow: "0 0 0 1000px #282828 inset",
-      WebkitTextFillColor: "white",
+      WebkitTextFillColor: "black",
     },
     "MuiOutlinediput-input:-webkit-autofill": {
-      WebkitTextFillColor: "white",
+      WebkitTextFillColor: "black",
     },
   },
   mainAutocompleteClass: {

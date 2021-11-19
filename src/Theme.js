@@ -39,6 +39,11 @@ export default createMuiTheme({
     // MuiDialogContent: {
     //   root: { zIndex: "1000000000000000000" },
     // },
+    // MuiPickersCalendarHeader: {
+    //   dayLabel: {
+    //     color: "black",
+    //   },
+    // },
     MuiDialogActions: {
       root: {
         display: "none",
@@ -66,7 +71,11 @@ export default createMuiTheme({
       },
     },
     MuiPickersCalendarHeader: {
-      iconButton: { backgroundColor: "#282828" },
+      // iconButton: { backgroundColor: "#282828" },
+      iconButton: {
+        backgroundColor: "black",
+      },
+      dayLabel: { color: "black" },
     },
     MuiPickersDay: {
       day: {
@@ -105,6 +114,12 @@ export default createMuiTheme({
     MuiDialog: {
       root: { zIndex: "1000000001 !important" },
     },
+
+    Mui: {
+      disabled: {
+        backgroundColor: "grey",
+      },
+    },
   },
   shape: {
     borderRadius: "10px",
@@ -116,7 +131,7 @@ export default createMuiTheme({
       textTransform: "none",
       fontWeight: "400",
       fontSize: "1.2rem",
-      color: "white",
+      color: "black",
     },
     body2: {
       fontFamily: "Roboto",
@@ -124,7 +139,7 @@ export default createMuiTheme({
       fontWeight: "400",
       fontSize: "1.2rem",
       lineHeight: "24px",
-      color: "white",
+      color: "black",
     },
   },
 })

@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     },
     borderRadius: "5px",
     // boxShadow: "0px 5px 30px rgba(0, 0, 0, 0.1)",
-    color: "white",
+    color: "black",
 
     // "&:-webkit-autofill": {
     //   height: "0px",
