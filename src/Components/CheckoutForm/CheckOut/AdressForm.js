@@ -354,9 +354,9 @@ const useStyles = makeStyles((theme) => ({
 const AntSwitch = withStyles((theme) => ({
   root: {
     width: 38,
-    height: 23,
+    height: 27,
     padding: 0,
-    paddingBottom: 2,
+    paddingBottom: "6px",
     display: "flex",
   },
   switchBase: {
