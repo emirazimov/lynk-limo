@@ -26,10 +26,10 @@ const Error = ({ error, setActiveStep, setError, setGotAddressError }) => {
         flexDirection: "row ",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "black",
+        backgroundColor: "white",
         paddingTop: "40%",
-        paddingRight: "20px",
-        paddingLeft: "20px",
+        // paddingRight: "20px",
+        // paddingLeft: "20px",
       }}
     >
       <MuiThemeProvider theme={theme}>
@@ -42,12 +42,17 @@ const Error = ({ error, setActiveStep, setError, setGotAddressError }) => {
         >
           <ErrorIcon />
           <Typography
-            style={{ fontWeight: "700", fontSize: "19px", marginTop: "15px" }}
+            style={{
+              fontWeight: "700",
+              fontSize: "19px",
+              marginTop: "15px",
+              color: "black",
+            }}
           >
             Oops!
           </Typography>
           <Typography
-            style={{ textAlign: "center", marginTop: "15px", color: "#BCBCBC" }}
+            style={{ textAlign: "center", marginTop: "15px", color: "black" }}
           >
             {error}
           </Typography>
